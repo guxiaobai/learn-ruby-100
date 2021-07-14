@@ -13,3 +13,4 @@
 * [Sequel: The Database Toolkit for Ruby](http://sequel.jeremyevans.net/)
 * [Padrino - The Elegant Ruby Web Framework](http://padrinorb.com/)
 * [Bundler](https://bundler.io/)
+* [https://github.com/rubocop/rubocop](https://github.com/rubocop/rubocop)
