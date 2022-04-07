@@ -1,6 +1,7 @@
 # Programming Ruby中文版 - 第2版
 
 * [第 1 章 入门 Getting Started](./ch01)
+* [第 2 章 Ruby.new](./ch02)
 
 ## Ref
 
