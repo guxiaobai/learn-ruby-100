@@ -2,6 +2,7 @@
 
 * [第 1 章 入门 Getting Started](./ch01)
 * [第 2 章 Ruby.new](./ch02)
+* [第 3 章 类、对象和变量](./ch03/)
 
 ## Ref
 
