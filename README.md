@@ -5,6 +5,10 @@
 * [Ruby元编程（第2版）](./9787568009799/)
 * [Effective Ruby：改善Ruby程序的48条建议](./9787111521242/)
 
+## Misc
+
+* [`&.` - Safe navigation operator](https://ruby-doc.org/core-2.6/doc/syntax/calling_methods_rdoc.html#label-Safe+navigation+operator)、[`try` in Rails](https://api.rubyonrails.org/v5.2/classes/Object.html#method-i-try)
+
 ## CLI Utilities
 
 * [Awesome Print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style -- in full color and with proper indentation
