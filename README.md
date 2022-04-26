@@ -6,6 +6,12 @@
 * [Effective Ruby：改善Ruby程序的48条建议](./9787111521242/)
 * [Ruby基础教程 第5版](./9787115462947)
 
+> `20.04 LTS`
+
+```bash
+sudo apt-get install -y ruby ruby-dev ruby-bundler
+```
+
 ## Misc
 
 * [`&.` - Safe navigation operator](https://ruby-doc.org/core-2.6/doc/syntax/calling_methods_rdoc.html#label-Safe+navigation+operator)、[`try` in Rails](https://api.rubyonrails.org/v5.2/classes/Object.html#method-i-try)
