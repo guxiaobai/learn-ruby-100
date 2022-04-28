@@ -2,13 +2,16 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Sat Apr 23 22:50:13 CST 2022` | -
+`Wed Apr 27 21:11:43 CST 2022` | -
 
 
 
 ## 3.1 一个简单的中间件
 
-* 任何中间件本身必须式一个合法的 Rack 应用程序
+* 任何中间件本身必须是一个合法的 Rack 应用程序
+
+## 3.2 Rack响应标准
+
 
 
 ## 3.3 为什么中间件
@@ -22,7 +25,7 @@
 
 **3.4.2 实现 Builder**
 
-`@TODO`:  用 `inject` 方法简化  `to_app` - 
+`@TODO`:  用 `inject` 方法简化  `to_app` 
 
 ```ruby
 @middlewares.reverse.inject(@app){ |app, middleware| middleware.new(app) }
