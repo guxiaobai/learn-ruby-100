@@ -15,6 +15,9 @@
 
 ```bash
 brew install rbenv
+
+# Upgrading
+brew update && brew upgrade ruby-build
 ```
 
 **2-Basic GitHub Checkout**
