@@ -1,0 +1,2 @@
+puts "success"
+puts ARGV
