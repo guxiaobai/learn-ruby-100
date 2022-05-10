@@ -40,5 +40,6 @@ sudo apt-get install -y ruby ruby-dev ruby-bundler
 ## Ref
 
 * [https://github.com/markets/awesome-ruby](https://github.com/markets/awesome-ruby)
+* [https://github.com/liukun-lk/awesome-ruby-china](https://github.com/liukun-lk/awesome-ruby-china)
 * [https://www.ruby-toolbox.com/](https://www.ruby-toolbox.com/)
 * [How To Code in Ruby | DigitalOcean](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-ruby)
