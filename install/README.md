@@ -9,7 +9,6 @@
 
 ## Ref
 
-* [RVM](./rvm)
 * [Fullstaq Ruby: Ruby, built for production](https://fullstaqruby.org/)
 * [chruby](https://github.com/postmodern/chruby)
 
