@@ -5,6 +5,13 @@
 `Sun Apr 10 20:49:02 CST 2022` | -
 
 
+升级版本
+
+```bash
+gem update --system --verbose -N
+```
+
+
 ## Ref
 
 * [RubyGems.org | Ruby 社区 Gem 托管](https://rubygems.org/)
