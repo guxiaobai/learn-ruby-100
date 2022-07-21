@@ -17,3 +17,8 @@ gem update --system --verbose -N
 * [RubyGems.org | Ruby 社区 Gem 托管](https://rubygems.org/)
 * [RubyGems 镜像 - Ruby China](https://gems.ruby-china.com/)
 * [The Ruby Toolbox - Know your options!](https://www.ruby-toolbox.com/)
+* [Gemfile 详解](https://ruby-china.org/topics/26655)
+* [Ruby 中的 require 和 加载路径 $LOAD_PATH](https://cwy007.github.io/2019/01/11/the-require-and-load-path-in-ruby/)
+* [【Ruby】require背后的故事](https://www.cnblogs.com/Dahaka/archive/2013/03/10/ruby_require.html)
+* [读 RubyGems 源码遇到的问题](https://ruby-china.org/topics/32406)
+* [Ruby 基础 - RubyGem，如何开发一个自己的 Gem](https://ruby-china.org/topics/26292)
