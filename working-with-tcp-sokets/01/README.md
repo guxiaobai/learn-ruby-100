@@ -4,16 +4,13 @@
 |:---:|:---:
 `Sat Jul 23 14:06:42 CST 2022` | -
 
-## 1.1 Ruby 的套接字
 
-
-* Ruby的套接字类在默认情况下并不会被载入
-
-```ruby
-require 'socket'
-```
 
 ## 1.2 创建首个套接字
+
+```ruby
+Socket.new(Socket::AF_INET, Socket::SOCK_STREAM)
+```
 
 
 类型|含义
@@ -31,6 +28,10 @@ require 'socket'
 
 * 可以让你使用符号（而非常量）来描述各种选项
 
+```ruby
+Socket.new(:INET, :STREAM)
+```
+
 符号|常量
 ---|----
 `:INET` | `Socket::AF_INET`
@@ -40,3 +41,4 @@ require 'socket'
 ## 1.8 文档
 
 * `man 2 socket`
+* `ri Socket.new`
