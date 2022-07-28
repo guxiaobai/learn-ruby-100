@@ -21,3 +21,12 @@
 * 服 务器采用部分读取（partial read）的方式
 
 ## 6.5 EOF 事件
+
+* 客户端发送EOF最简单的方式就是关闭自己的套接字。
+
+
+## 6.6 部分读取
+
+* readpartial 并 不 会 阻 塞 ， 而 是 立 刻 返 回 可 用 的 数 据
+* 调 用 readpartial时，你必须传递一个整数作为参数，来指定最大的长度
+* 当接收到EOF时， read仅仅是返回，而readpartial则会产生一个EOFError异常

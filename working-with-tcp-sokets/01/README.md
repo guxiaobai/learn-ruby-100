@@ -2,13 +2,14 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Sat Jul 23 14:06:42 CST 2022` | -
+`Thu Jul 28 13:06:51 CST 2022` | -
 
 
 
 ## 1.2 创建首个套接字
 
 ```ruby
+# Socket.constants
 Socket.new(Socket::AF_INET, Socket::SOCK_STREAM)
 ```
 
@@ -23,6 +24,7 @@ Socket.new(Socket::AF_INET, Socket::SOCK_STREAM)
 ## 1.6 端口
 
 * 对每个套接字而言，IP地址和端口号的组合必须是唯一的
+* 所以 在同一个侦听端口上可以有两个套接字，一个使用IPv4地址，另一 个 使 用 IPv6 地 址
 
 ## 1.7 创建第二个套接字
 

@@ -31,3 +31,9 @@ socket = TCPSocket.new('google.com', 80)
 Socket.tcp('google.com', 80) do |connection|
 end
 ```
+
+
+## Ref
+
+* [TCPSocket](https://ruby-doc.org/stdlib-3.1.2/libdoc/socket/rdoc/TCPSocket.html)
+* [Socket#tcp](https://ruby-doc.org/stdlib-3.1.2/libdoc/socket/rdoc/Socket.html#method-c-tcp)
