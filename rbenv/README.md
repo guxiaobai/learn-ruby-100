@@ -51,6 +51,14 @@ echo -e "\n# Rbenv" | tee -a ~/.config/fish/config.fish
 echo 'rbenv init - fish | source' | tee -a ~/.config/fish/config.fish
 ```
 
+## XQuartz with Fish
+
+```
+# Rbenv
+if which rbenv > /dev/null
+    rbenv init - fish | source
+end
+```
 
 
 ## Ref
