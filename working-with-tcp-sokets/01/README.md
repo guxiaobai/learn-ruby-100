@@ -2,7 +2,7 @@
 
 |本期版本| 上期版本
 |:---:|:---:
-`Thu Jul 28 13:06:51 CST 2022` | -
+`Mon Dec 12 12:28:54 CST 2022` | -
 
 
 
@@ -44,3 +44,7 @@ Socket.new(:INET, :STREAM)
 
 * `man 2 socket`
 * `ri Socket.new`
+
+## Ref
+
+* [https://ruby-doc.org/3.1.3/exts/socket/Socket.html](https://ruby-doc.org/3.1.3/exts/socket/Socket.html)
