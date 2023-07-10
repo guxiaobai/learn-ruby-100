@@ -13,6 +13,15 @@
 sudo apt-get install -y ruby ruby-dev ruby-bundler
 ```
 
+> `Ventura`
+
+
+```bash
+brew install ruby@2.7
+fish_add_path /usr/local/opt/ruby@2.7/bin
+fish_add_path /usr/local/lib/ruby/gems/2.7.0/bin
+```
+
 ## Misc
 
 * [`&.` - Safe navigation operator](https://ruby-doc.org/core-2.6/doc/syntax/calling_methods_rdoc.html#label-Safe+navigation+operator)、[`try` in Rails](https://api.rubyonrails.org/v5.2/classes/Object.html#method-i-try)
