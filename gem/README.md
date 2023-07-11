@@ -5,6 +5,10 @@
 `Sun Apr 10 20:49:02 CST 2022` | -
 
 
+```bash
+gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
+```
+
 升级版本
 
 ```bash
