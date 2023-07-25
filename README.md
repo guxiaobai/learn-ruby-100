@@ -17,9 +17,11 @@ sudo apt-get install -y ruby ruby-dev ruby-bundler
 
 
 ```bash
-brew install ruby@2.7
-fish_add_path /usr/local/opt/ruby@2.7/bin
-fish_add_path /usr/local/lib/ruby/gems/2.7.0/bin
+brew install ruby@3.1
+fish_add_path /usr/local/opt/ruby@3.1/bin
+
+# gem env |grep 'EXECUTABLE DIRECTORY'
+fish_add_path /usr/local/lib/ruby/gems/3.1.0/bin
 ```
 
 ## Misc
