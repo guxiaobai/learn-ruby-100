@@ -8,6 +8,7 @@
 * [Specifying a Ruby Version](https://bundler.io/gemfile_ruby.html#specifying-a-ruby-version)
 
 ```bash
+bundle config set --local path ./.bundle
 bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 ```
 
