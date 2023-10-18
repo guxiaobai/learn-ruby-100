@@ -13,14 +13,29 @@
 sudo apt-get install -y ruby ruby-dev ruby-bundler
 ```
 
+## macOS
+
 > `Ventura`
 
 
 ```bash
 brew install ruby@3.1
-fish_add_path /usr/local/opt/ruby@3.1/bin
 
+# gem update --system --verbose -N
 # gem env |grep 'EXECUTABLE DIRECTORY'
+```
+
+> `Apple silicon`
+
+```bash
+fish_add_path /opt/homebrew/opt/ruby@3.1/bin
+fish_add_path /opt/homebrew/lib/ruby/gems/3.1.0/bin
+```
+
+> `Intel-based`
+
+```bash
+fish_add_path /usr/local/opt/ruby@3.1/bin
 fish_add_path /usr/local/lib/ruby/gems/3.1.0/bin
 ```
 
