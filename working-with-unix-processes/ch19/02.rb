@@ -1,2 +1,0 @@
-puts "success"
-puts ARGV
