@@ -17,6 +17,18 @@ bundle config set --local deployment 'true'
 ```
 
 
+---
+
+```ruby
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('Gemfile', __FILE__)
+require 'bundler/setup'
+Bundler.require(:default)
+```
+
+* <https://ruby-china.org/topics/34681>
+* <https://bundler.io/guides/bundler_setup.html>
+
+
 ## Ref
 
 * [https://bundler.io/](https://bundler.io/)
